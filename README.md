@@ -1,11 +1,16 @@
 ## About
 A tool that uses [smoogipoo's Replay API](https://github.com/smoogipoo/osu-Replay-API) to convert a replay file to a csv.
 
-mainly created for personal use (and also slightly modified the API) that's why his entire repo is in here instead of a submodule.
+This was mainly created for personal use (and also slightly modified the API) that's why smoogi's entire repo is in here instead of a submodule.
 
+## Usage
+Paste replay folder in the console and wait (most likely not long at all)
 
+When it's done you can open it in default program for .csv
 
+Currently if you want to use a different folder for replays after the first run you'll have to delete the Options.cfg 
 
+Currently the output file is hardcoded but will be changed in the future
 
 ## smoogi's License
 
