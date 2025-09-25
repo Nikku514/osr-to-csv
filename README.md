@@ -1,5 +1,6 @@
 ## About
 A tool that uses [smoogipoo's Replay API](https://github.com/smoogipoo/osu-Replay-API) to convert a replay file to a csv.
+
 mainly created for personal use (and also slightly modified the API) that's why his entire repo is in here instead of a submodule.
 
 
