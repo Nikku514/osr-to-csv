@@ -41,7 +41,15 @@ namespace ReplayAPI
         public Replay(string replayFile, bool fullLoad = false)
         {
             Filename = replayFile;
-            replayReader = new BinaryReader(new FileStream(replayFile, FileMode.Open, FileAccess.Read, FileShare.Read));
+            try
+            {
+                replayReader = new BinaryReader(new FileStream(replayFile, FileMode.Open, FileAccess.Read, FileShare.Read));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                return;
+            }
 
             loadHeader();
             if (fullLoad)
