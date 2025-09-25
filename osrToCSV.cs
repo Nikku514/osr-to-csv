@@ -1,12 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Diagnostics;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 using ReplayAPI;
 
-namespace OSRToCSV
+namespace OSRtoCSV
 {
     public class OSRtoCSV
     {
