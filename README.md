@@ -8,7 +8,7 @@ Paste replay folder in the console and wait (most likely not long at all)
 
 When it's done you can open it in default program for .csv
 
-Currently if you want to use a different folder for replays after the first run you'll have to delete the Options.cfg 
+Currently if you want to use a different folder for replays after the first run, you'll have to either change the contents of or delete the Options.cfg 
 
 Currently the output file is hardcoded but will be changed in the future
 
