@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7BE0A72A-B2A3-40AA-9B29-B95F55B00024}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>osrToCSV</RootNamespace>
-    <AssemblyName>osrToCSV</AssemblyName>
+    <RootNamespace>OSRtoCSV</RootNamespace>
+    <AssemblyName>OSRtoCSV</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

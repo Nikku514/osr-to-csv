@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.36422.26
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "osrToCSV", "osrToCSV.csproj", "{7BE0A72A-B2A3-40AA-9B29-B95F55B00024}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSRtoCSV", "OSRtoCSV.csproj", "{7BE0A72A-B2A3-40AA-9B29-B95F55B00024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
