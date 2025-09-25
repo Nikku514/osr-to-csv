@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ReplayAPI;
 
-namespace osrToCSV
+namespace OSRToCSV
 {
     public class OSRtoCSV
     {
@@ -43,7 +43,7 @@ namespace osrToCSV
                 {
                     using (StreamWriter sw = File.AppendText("Replays.csv"))
                     {
-                        sw.WriteLine(ry.PlayerName + "," + ry.GameMode + "," + ry.Version + "," + ry.Mods + "," + ry.TotalScore + "," + ry.Count300 + "," + ry.Count100 + "," + ry.Count50 + "," + ry.CountGeki + "," + ry.CountKatu + "," + ry.CountMiss + "," + ry.MaxCombo + "," + ry.IsPerfect + "," + ry.PlayTime + "," + ry.MapHash);
+                        sw.WriteLine(ry.PlayerName + "," + ry.GameMode + "," + ry.Version + ",\"" + ry.Mods + "\"," + ry.TotalScore + "," + ry.Count300 + "," + ry.Count100 + "," + ry.Count50 + "," + ry.CountGeki + "," + ry.CountKatu + "," + ry.CountMiss + "," + ry.MaxCombo + "," + ry.IsPerfect + "," + ry.PlayTime + "," + ry.MapHash);
                         sw.Close(); //NTODO: Along with configurability, clean up this so it's not 2 billion characters long ^
                     }
                 }
