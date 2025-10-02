@@ -41,7 +41,6 @@ namespace OSRtoCSV
 
             if (!File.Exists(outputFile))
             {
-                //This looks ugly to me but it works
                 if (!(outputFile == ".csv" || string.IsNullOrEmpty(outputFile)))
                 {
                     StreamWriter sw = new StreamWriter(outputFile);
