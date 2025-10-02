@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Diagnostics;
+using System.Text;
 using ReplayAPI;
 
 namespace OSRtoCSV
@@ -24,15 +25,18 @@ namespace OSRtoCSV
             }
             else
             {
+                StreamWriter swo = new StreamWriter("Options.cfg");
+                
                 Console.WriteLine("Enter replay path:");
                 replayPath = Console.ReadLine();
-                Console.WriteLine("Replay path is set to " + replayPath);
-                Console.WriteLine("Enter output file name:");
-                outputFile = Console.ReadLine();
-                Console.WriteLine("output file is set to " + outputFile);
-                StreamWriter swo = new StreamWriter("Options.cfg");
                 swo.WriteLine(replayPath);
+                Console.WriteLine("Replay path is set to " + replayPath);
+                
+                Console.WriteLine("Enter output file name:");
+                outputFile = Console.ReadLine() + ".csv";
                 swo.WriteLine($"{outputFile}.csv");
+                Console.WriteLine("output file is set to " + outputFile);
+                
                 swo.Close();
             }
 
