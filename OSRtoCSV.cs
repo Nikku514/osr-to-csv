@@ -77,7 +77,7 @@ namespace OSRtoCSV
                 if (!File.Exists(outputFile)) continue;
                 using (StreamWriter sw = File.AppendText(outputFile))
                 {
-                    sw.WriteLine(csvReplayData);
+                    sw.WriteLineAsync(csvReplayData);
                     sw.Close(); //NTODO: csvReplayData configurability 
                 }
             }
