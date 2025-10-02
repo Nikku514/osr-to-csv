@@ -83,7 +83,7 @@ namespace OSRtoCSV
             Console.WriteLine("Press C to open CSV in default program");
             Console.WriteLine("Press enter to close...");
             if (Console.ReadKey().Key == ConsoleKey.C)
-                Process.Start(outputFile + ".csv");
+                Process.Start(outputFile);
         }
     }
 }
